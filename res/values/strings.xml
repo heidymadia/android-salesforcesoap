@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HelloView!</string>
+    <string name="app_name">SFDC REST Sample</string>
+	<string name="targetAccountLabel">Account Name</string>
+	<string name="accountBillingStreetLabel">Billing Street</string>
+	<string name="accountBillingCityLabel">Billing City</string>
+	<string name="accountBillingStateLabel">Billing State</string>
+	<string name="save">Save</string>
+	<string name="oAuthUrl">https://login.salesforce.com</string>
+	<string name="consumerKey">3MVG9Y6d_Btp4xp4gQwYPN2eKbDU6N3o36VYX_OqG8Z5FPvafo4do1gkb4tX1JL_V0sYvQPgxXk9v8z8KqhpT</string>
+	<string name="callbackUrl">sfdcsample:success</string></resources>

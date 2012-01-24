@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    <TableLayout android:layout_width="fill_parent"
+                 android:layout_height="fill_parent">
+	    <TableRow 
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" 
+	        android:layout_gravity="center_horizontal">
+	        <LinearLayout 
+	            xmlns:android="http://schemas.android.com/apk/res/android"
+	            android:layout_width="fill_parent" 
+	            android:layout_height="fill_parent"
+	            android:orientation="horizontal" 
+	            android:layout_weight="1">
+	            <Button 
+	                android:id="@+id/btnUpdate" 
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content" 
+	                android:text="Update"
+	                android:layout_weight="1" />
+	            <Button 
+	                android:id="@+id/btnDelete" 
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content" 
+	                android:text="Delete"
+	                android:layout_weight="1" />
+	
+	        </LinearLayout>
+	    </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/accountNameText"
+            		  android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/billingStreetText"
+            		  android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/billingCityText"
+            		  android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/billingStateText"
+            		  android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>
